@@ -2,7 +2,7 @@
 * @Author: l
 * @Date:   2017-09-03 11:09:23
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-05 21:13:53
+* @Last Modified time: 2017-09-07 00:59:39
 */
 @font-face {
   font-family: 'iconfont';  /* project id 401018 */
@@ -113,6 +113,9 @@ a.daohang-huanyingdengluwenzi:hover{
 	float: left;
 	border-left: 1px #999 solid;
 }
+.daohang-xuanxiangwenzi:hover{
+	color: orange;
+}
 .daohang-xuanxiangwenzi1{
 	border-left: 0;
 	color: #ff0036;
@@ -192,6 +195,9 @@ a.daohang-huanyingdengluwenzi:hover{
 	float: left;
 	color:white;
 }
+.daohang-wenzi h1:hover{
+	color:  orange;
+}
 .daohang-wenzi1{
 	width: 16px;
 	height: 36px;
@@ -200,12 +206,17 @@ a.daohang-huanyingdengluwenzi:hover{
 	color: white;
 	float: left;
 }
+
+
 .daohang-wenzi h2{
 	font-size: 16px;
 	margin-left: 5px;
 	line-height: 36px;
 	float: left;
 	color: white;
+}
+.daohang-wenzi h2:hover{
+	color:  orange;
 }
 .daohang-wenzi h3{
 	font-size: 15px;
@@ -214,6 +225,10 @@ a.daohang-huanyingdengluwenzi:hover{
 	float: left;
 	color: white;
 }
+.daohang-wenzi h3:hover{
+	color:  orange;	
+}
+
 .banner-list{
 	width: 200px;
 	height: 500px;
@@ -221,31 +236,41 @@ a.daohang-huanyingdengluwenzi:hover{
 	position: absolute;
 	left: 0;
 	top: 0;
+	background-color: rgba(255,255,255,0.4);
+}
+.banner-list1:hover{
+	background-color: orange;
 }
 .banner-list1{
 	width: 200px;
 	height: 31.2px;
-	background-color: white;
+	/* background-color: white; */
 }
+
 .list-tubiao{
 	width: 16px;
 	height: 31px;
 	float: left;
 	margin-left: 14px;
 	margin-right: 4px;
-	background-color: white;
+	/* background-color: white; */
 }
 .list-tubiao a{
 	font-size: 16px;
 	line-height: 31px;
 	color: black;
-
+}
+.list-tubiao a:hover{
+	background-color: orange;
 }
 .banner-list1 h1{
 	font-size: 13px;
 	color: black;
 	line-height: 31px;
 	margin-left: 2px;
+}
+.banner-list1 h1:hover{
+	background-color: orange;
 }
 .banner-youtu{
 	width: 220px;
