@@ -2,15 +2,15 @@
 * @Author: l
 * @Date:   2017-09-03 11:09:23
 * @Last Modified by:   王晨
-* @Last Modified time: 2017-09-05 20:47:10
+* @Last Modified time: 2017-09-06 15:24:29
 */
 @font-face {
-  font-family: 'iconfont';  /* project id 401018 */
-  src: url('http://at.alicdn.com/t/font_401018_e0rpqnzt5ge0o1or.eot');
-  src: url('http://at.alicdn.com/t/font_401018_e0rpqnzt5ge0o1or.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_401018_e0rpqnzt5ge0o1or.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_401018_e0rpqnzt5ge0o1or.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_401018_e0rpqnzt5ge0o1or.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_ir8hrwog2g0q9f6r.eot');
+  src: url('http://at.alicdn.com/t/font_401031_ir8hrwog2g0q9f6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_ir8hrwog2g0q9f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_ir8hrwog2g0q9f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_ir8hrwog2g0q9f6r.svg#iconfont') format('svg');
 }
 .iconfont {
     font-family:"iconfont" !important;
@@ -58,10 +58,24 @@ a.daohang-huanyingdengluwenzi:hover{
 	padding: 0 0 0 20px;
 }
 .daohang-wodexinxi{
-	width: 300px;
 	height: 32px;
 	float: right;
 	background-color: #f2f2f2;
+}
+
+.daohang-wodexinxi li{
+	float: left;
+	font-size: 12px;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	color: #999;
+}
+.daohanglan-ico i{
+	color: red;
+}
+.daohang-wodexinxi li:hover{color: red;}
+.daohang-wodexinxi .daohang-daosanjiao{
+	padding: 0;
 }
 .daohang-dengluimg{
 	width: 240px;
@@ -123,7 +137,7 @@ a.daohang-huanyingdengluwenzi:hover{
 	height: 536px;
 }
 .daohang--neikuan{
-	height: 500px;
+	height: 499px;
 	margin: 0 auto;
 	width: 100%;
 	background-color: #798ac8;
@@ -136,7 +150,7 @@ a.daohang-huanyingdengluwenzi:hover{
 }
 .banner-img{
 	width: 1230px;
-	height: 500px;
+	height: 499px;
 	background-color: blue;
 	float: left;
 	
@@ -211,6 +225,7 @@ a.daohang-huanyingdengluwenzi:hover{
 	margin-left: 30px;
 	line-height: 36px;
 	float: left;
+	font-weight: normal;
 }
 .banner-list{
 	width: 200px;
@@ -223,6 +238,11 @@ a.daohang-huanyingdengluwenzi:hover{
 	width: 200px;
 	height: 31.2px;
 	background-color: rgba(0,0,0,.55);
+}
+.banner-list1 h1:hover{
+	background-color: #fff;
+	color: red;
+	font-weight:bold;
 }
 .list-tubiao{
 	width: 16px;
@@ -242,7 +262,7 @@ a.daohang-huanyingdengluwenzi:hover{
 	font-size: 14px;
 	color: #fff;
 	line-height: 31px;
-	margin-left: 2px;
+	padding-left: 2px;
 	font-weight: normal;
 }
 .banner-youtu{
